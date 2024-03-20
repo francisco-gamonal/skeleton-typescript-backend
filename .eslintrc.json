@@ -1,0 +1,24 @@
+{
+	"root": true,
+  "env": {
+    "es2021": true,
+		"node": true
+  },
+	"parser": "@typescript-eslint/parser",
+	"parserOptions": {
+		"project": "./tsconfig.json"
+	},
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "rules": {
+    "indent": [
+      "error",
+      "tab"
+    ]
+  }
+}
