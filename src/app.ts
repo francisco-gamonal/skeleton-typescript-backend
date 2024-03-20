@@ -1,1 +1,1 @@
-console.log("Hello from app.ts!")
+console.log('Hello from app.ts!');
