@@ -11,13 +11,12 @@
 	"extends": [
 		"airbnb-base",
 		"airbnb-typescript/base",
-		"plugin:@typescript-eslint/recommended"
+		"prettier",
+		"plugin:@typescript-eslint/recommended",
+		"plugin:prettier/recommended"
 	],
-	"plugins": ["@typescript-eslint"],
+	"plugins": ["@typescript-eslint", "prettier"],
 	"rules": {
-		"indent": ["error", "tab"],
-		"no-tabs": 0,
-		"@typescript-eslint/indent": ["error", "tab"],
-		"@typescript-eslint/quotes": ["error", "double"]
+		"prettier/prettier": "error"
 	}
 }
