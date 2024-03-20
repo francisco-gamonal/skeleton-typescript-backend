@@ -1,1 +1,4 @@
-console.log('Hello from app.ts!');
+import sum from "./sum";
+
+const result = sum(1, 2);
+console.log(result);
